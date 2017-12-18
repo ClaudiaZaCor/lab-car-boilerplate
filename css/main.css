@@ -1,1 +1,182 @@
 /* Los estilos de tu proyecto */
+
+* {
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0;
+    outline: none;
+}
+
+.navbar-header, .navbar-collapse{
+    background-color: white;
+    border: 1px solid white; 
+}
+
+.navbar-brand { /*para mobile*/
+    height: 60px;
+    margin-top: 20px;
+}
+
+li a {
+    margin-top: 15px;
+}
+
+.element-style { /*para mobile*/
+    height: 500px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 1; 
+}
+
+.bg-image1 {
+    background: url(../assets/images/taxi.jpg) no-repeat bottom;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.jumbotron {
+    position: absolute; 
+    width: 80%;
+    height: 150px;
+    bottom: 100px;
+    float: right;
+}
+
+.jumbotron h2 {
+    color: white;
+    text-align: left;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.logo {
+    height: 15px;
+    width: 60px;
+    text-align: right;
+    margin-top: 0px;
+}
+
+.btn-primary {
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+#principal-color {
+    background-color: #ffc107;
+    margin-left: 24%;
+    padding: 0.5em 0 1.6em 2.2em;
+}
+
+/*.bg-color-desktop {
+    margin-left: 64%;
+    padding: 2em;
+    background-color: #ffc107;
+}
+*/
+
+.thumbnail {
+    background-color: #ffc107;
+    width: 97%;
+    margin: 0px;
+    padding: 4px;
+}
+
+.cellphone {
+    border: 1px solid white;
+    margin: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.text-down {
+    color: white;
+    margin-left: 2%;
+}
+
+.bg-image2 {
+    background: url(../assets/images/conduce.jpg) no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+}
+
+.row-text {
+    background-color: rgba(0, 0, 0, 0.62);
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 10%;
+    height: inherit;
+}
+
+.btn-secondary {
+    background-color: #ffc107;
+    color: white;
+    border: 1px solid #ffc107;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: block;
+    width: 70%;   
+}
+
+.container {
+    background-color: #ffc107;
+    padding: 10%;
+}
+
+#point {
+    border: 1.5px solid white;
+  }
+
+.btn-default {
+  margin-left: 100px;
+}
+
+.map {
+    height:40vh;
+    width: 90%;
+    border: 1.5px solid #fff;
+    margin: 1rem auto;
+}
+
+.container-footer {
+    background-color: #2b2b2b;
+    color: white;
+    padding: 30px;
+}
+
+hr {
+    color: white;
+    width: 35rem;
+    border: 1px solid white;
+}
+
+.items {
+    margin-top: 50px;
+    margin-left: 0px;
+    line-height: 35px;   
+}
+
+.items li {
+    display: block;
+}
+
+.brands {
+    list-style: none;
+    display: inline;
+    float: right; 
+    margin-bottom: 80px; 
+}
